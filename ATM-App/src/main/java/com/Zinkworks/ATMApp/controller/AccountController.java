@@ -7,6 +7,7 @@ import com.Zinkworks.ATMApp.acounts.exceptions.AccountWithdrawException;
 import com.Zinkworks.ATMApp.acounts.exceptions.InsufficientFundException;
 import com.Zinkworks.ATMApp.acounts.exceptions.SessionException;
 import com.Zinkworks.ATMApp.service.AccountService;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
